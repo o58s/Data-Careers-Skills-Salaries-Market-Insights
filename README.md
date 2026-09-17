@@ -41,7 +41,7 @@ It includes detailed information on:
 
 #### Extract
 
-- I used **Power Query** to import and transform the original dataset [data_jobs_salary_all.xlsx](Dataset/data_jobs_salary_all.xlsx) into two structured queries:
+- I used **Power Query** to import and transform the original dataset [data_jobs_salary_all.xlsx](Resources/data_jobs_salary_all.xlsx) into two structured queries:
 
   -  **Data Jobs:** Contains the main information for each data-related job posting.
   - **Job Skills:** Contains the individual skills associated with each job posting, allowing for further analysis of skill demand across different roles.
