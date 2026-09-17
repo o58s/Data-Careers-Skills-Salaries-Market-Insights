@@ -120,3 +120,49 @@ It includes detailed information on:
 ### Skill: Power Pivot
 
 #### Power Pivot  
+
+- Data model: I created a relational data model by connecting the `data_jobs_all` and `data_jobs_skills` tables, allowing job-level information to be analyzed alongside the skills associated with each role.
+- Data preparation: After cleaning and transforming the data in Power Query, I used Power Pivot to establish the relationship between the two tables and create a structured model for analysis.
+
+#### Data Model
+
+- I created a relationship between my two tables using the `job_id` column.
+
+#### Power Pivot Menu
+
+- The Power Pivot menu was used to refine my data model and makes it easy to create measures.
+
+
+#### Insights
+
+- Core analytics skills: SQL and Python emerged as two of the most frequently requested skills across data-related job postings, highlighting their importance in data extraction, analysis, and automation.
+- Cloud skills: AWS and Azure also appeared frequently in job postings, reflecting the growing use of cloud platforms within modern data workflows and analytics environments.
+
+
+#### So What
+
+- Understanding prevalent skills in the industry not only helps professionals stay competitive but also guides training and educational programs to focus on the most impactful technologies.
+
+
+## What’s the pay of the top 10 skills?
+
+### Skill: Advanced Charts 
+
+### Analysis
+
+#### Insights
+
+- Salary association: Skills such as Python, Oracle, and SQL were associated with higher median salaries in the dataset, highlighting their relevance across more technical and specialized data roles.
+
+- Lower-salary skills: Skills such as PowerPoint and Word showed lower median salaries and lower skill likelihood, suggesting they were more commonly associated with roles with fewer specialized technical requirements.
+
+### 🤔So What
+
+- This chart highlights the importance of investing time in learning high-value skills like Python and SQL, which are evidently tied to higher paying roles, especially for those looking to maximize their salary in the tech industry.
+
+## Conclusion
+
+As an aspiring data analyst, I developed this Excel-based project to explore trends in the data job market and understand how job requirements relate to salary. Using real-world job posting data, I analyzed job titles, salaries, locations, and in-demand skills. I used **Power Query, PivotTables, Power Pivot, DAX, and data visualizations** to clean, transform, model, and analyze the data.
+
+The analysis identified patterns between skill requirements and salary levels, with technical skills such as **Python, SQL, and cloud technologies** appearing across a range of data-related roles. This project helped me strengthen my practical Excel and data analysis skills while demonstrating how data can be used to investigate career and job market trends.
+
