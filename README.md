@@ -49,21 +49,28 @@ It includes detailed information on:
 #### Transform
 
 - Then, I transformed each query by changing column types, removing unnecessary columns, cleaning text to eliminate specific words, and trimming excess whitespace.
-    - 📊 data_jobs_all
+    
+    - data_jobs_all
+      
+    ![data_jobs_salary_power_query.png](Resources/data_jobs_salary_power_query.png)
 
 
+    - data_jobs_skills
 
-
+    ![data_jobs_skills_power_query.png](Resources/data_jobs_skills_power_query.png)
 
 
 #### Load
 
 - Finally, I loaded both transformed queries into the workbook, setting the foundation for my subsequent analysis.
-    - 📊 data_jobs_al
- 
+    - data_jobs_all
+      
+    ![data_jobs_salary_power_query_window.png](Resources/data_jobs_salary_power_query_window.png)
 
 
+    - data_jobs_skills
 
+    ![data_jobs_skills_power_query_window.png](Resources/data_jobs_skills_power_query_window.png)
 
 
 
@@ -74,6 +81,7 @@ It includes detailed information on:
 - Skill requirements and salary: Job postings requesting a broader range of skills generally showed higher median salaries, with this pattern particularly visible among roles such as Senior Data Engineer and Data Scientist.
 - Role and skill specialization: Roles such as Business Analyst generally required fewer technical skills and had lower median salaries, while more specialized data roles tended to require a broader combination of technical and analytical skills.
 
+ ![skills_chart.png](Resources/skills_chart.png)
 
 #### So What
 
@@ -109,6 +117,7 @@ It includes detailed information on:
 - Job roles like Senior Data Engineer and Data Scientist command higher median salaries both in the US and internationally, showcasing the global demand for high-level data expertise.
 - The salary disparity between US and Non-US roles is particularly notable in high-tech jobs, which might be influenced by the concentration of tech industries in the US.
 
+![median_salary_us.png](Resources/median_salary_us.png)
 
 #### **So What**
 
@@ -128,16 +137,22 @@ It includes detailed information on:
 
 - I created a relationship between my two tables using the `job_id` column.
 
+![table_relatioship.png](Resources/table_relatioship.png)
+
 #### Power Pivot Menu
 
 - The Power Pivot menu was used to refine my data model and makes it easy to create measures.
 
+  ![power_piviot_window.png](Resources/power_piviot_window.png)
+
+### Analysis
 
 #### Insights
 
 - Core analytics skills: SQL and Python emerged as two of the most frequently requested skills across data-related job postings, highlighting their importance in data extraction, analysis, and automation.
 - Cloud skills: AWS and Azure also appeared frequently in job postings, reflecting the growing use of cloud platforms within modern data workflows and analytics environments.
 
+![top_skills_chart.png](Resources/top_skills_chart.png)
 
 #### So What
 
@@ -155,6 +170,8 @@ It includes detailed information on:
 - Salary association: Skills such as Python, Oracle, and SQL were associated with higher median salaries in the dataset, highlighting their relevance across more technical and specialized data roles.
 
 - Lower-salary skills: Skills such as PowerPoint and Word showed lower median salaries and lower skill likelihood, suggesting they were more commonly associated with roles with fewer specialized technical requirements.
+
+![top_skills_pay.png](Resources/top_skills_pay.png)
 
 ### So What
 
