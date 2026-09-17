@@ -41,7 +41,7 @@ It includes detailed information on:
 
 #### Extract
 
-- I used **Power Query** to import and transform the original dataset (`data_salary_all.xlsx`) into two structured queries:
+- I used **Power Query** to import and transform the original dataset (`Dataset/data_jobs_salary_all.xlsx`) into two structured queries:
 
   -  **Data Jobs:** Contains the main information for each data-related job posting.
   - **Job Skills:** Contains the individual skills associated with each job posting, allowing for further analysis of skill demand across different roles.
@@ -156,7 +156,7 @@ It includes detailed information on:
 
 - Lower-salary skills: Skills such as PowerPoint and Word showed lower median salaries and lower skill likelihood, suggesting they were more commonly associated with roles with fewer specialized technical requirements.
 
-### 🤔So What
+### So What
 
 - This chart highlights the importance of investing time in learning high-value skills like Python and SQL, which are evidently tied to higher paying roles, especially for those looking to maximize their salary in the tech industry.
 
